@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* Base */
+body, html { width: 100%; height: 100%; -webkit-text-size-adjust: 100%; -webkit-appearance: auto; margin: 0; background-image: url(../images/back.jpg) !important; text-align: center; }
+
+html { font-size: 75%; /* 12px */ font-family: Verdana,Roboto,"Droid Sans","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif; }
+
+img { max-width: 100%; height: auto; }
+
+ul { list-style: none; }
+
+a { text-decoration: none; }
+
+a:hover { opacity: 0.7; filter: alpha(opacity=70); -ms-filter: "alpha(opacity=70)"; }
+
+p { margin: 0; }
+
+/* /Base */
+footer { background-color: #434343 !important; padding: 30px 0; margin-top: 120px !important; color: #fff; font-weight: lighter; line-height: 1.5; }
+footer a { color: #fff; }
+footer .sns { display: inline-block; margin: 20px 0 20px 30px; float: left; }
+footer .sns li { width: 30%; float: left; margin-right: 20px; float: left; }
+footer .footer_manu { clear: both; margin-bottom: 20px; }
+footer .footer_manu li { width: 49.4%; padding: 20px 0; float: left; display: block; border-top: 1px solid #5A5A5A; }
+footer .footer_manu li:nth-child(even) { text-align: center; border-left: 1px solid #5A5A5A; }
+footer .footer_manu li:nth-child(7), footer .footer_manu li:nth-child(8) { border-bottom: 1px solid #5A5A5A; }
+footer h4 { position: relative; top: 20px; font-size: 1em; font-weight: lighter; }
+footer h4 span { font-size: 1.8em; font-weight: lighter; }
+footer address { margin-top: 30px; font-size: 0.8em; font-weight: lighter; }
+footer p { padding: 20px 0; font-size: 0.6em; font-weight: lighter; }
+
+/* header */
+header { background-color: #CC006A !important; }
+header p { float: right; position: absolute; top: 28px; right: 28px; }
+header p .menu-trigger, header p .menu-trigger span { display: inline-block; transition: all .4s; box-sizing: border-box; }
+header p .menu-trigger { position: relative; width: 22px; line-height: 0.5; }
+header p .menu-trigger span { width: 100%; height: 2px; background-color: #fff; border-radius: 2px; }
+header p .menu-trigger.active span:nth-of-type(1) { -webkit-transform: translateY(10px) rotate(45deg); transform: translateY(10px) rotate(45deg); }
+header p .menu-trigger.active span:nth-of-type(2) { opacity: 0; }
+header p .menu-trigger.active span:nth-of-type(3) { -webkit-transform: translateY(-10px) rotate(-45deg); transform: translateY(-10px) rotate(-45deg); }
+header .layerMenu { width: 100%; font-size: 14px; z-index: 999; position: absolute; display: none; }
+header .layerMenu ul { padding: 20px 0; background: #000; opacity: 0.8; }
+header .layerMenu ul #layerMenu ul:after { display: block; clear: both; }
+header .layerMenu ul li a { position: relative; padding: 16px 0; text-decoration: none; color: #fff; display: block; }
+header .layerMenu ul li a:hover { color: #5A5A5A; }
+header h1 { margin: 0 auto; padding: 28px 0; text-align: center; }
+
+/* /header */
+.course { width: 94.3%; margin: 0 auto; padding: 30px 0; background-color: #fff; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); position: relative; bottom: 5px; }
+.course h2 { font-size: 2em; font-weight: lighter; }
+.course p { font-size: 1em; margin: 0.8em 0 1.6em 0; color: #7c7c7c; line-height: 150%; }
+.course li { width: 28%; display: inline-block; }
+
+.btn { width: 94.3%; margin: 28px  auto; }
+.btn li { display: inline-block; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); }
+
+.slider { width: 100%; padding: 30px 0; background-color: #fff; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); }
+
+.news { width: 94.3%; margin: 0 auto; padding: 30px 0; background-color: #fff; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); margin-top: 28px; padding: 30px 0 0 0; }
+.news h3 { font-size: 1.5em; font-weight: lighter; color: #CC006A; }
+.news li { margin: 20px 0; line-height: 1.5; }
+.news li a { color: #CC006A; text-decoration: underline; }
+.news p { margin-top: 30px; }
+
+.blog { width: 94.3%; margin: 0 auto; padding: 30px 0; background-color: #fff; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); margin-top: 28px; padding: 30px 0 0 0; }
+.blog h3 { font-size: 1.5em; font-weight: lighter; color: #CC006A; }
+.blog li { margin: 20px 0; line-height: 1.5; }
+.blog li a { color: #CC006A; text-decoration: underline; }
+.blog .photo { margin-top: 20px; }
+.blog .lower { margin-top: 30px; }
+
+.guide { width: 94.3%; margin: 0 auto; padding: 30px 0; background-color: #fff; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); margin-top: 28px; padding-bottom: 20px !important; padding: 30px 0 0 0; }
+.guide h3 { font-size: 1.5em; font-weight: lighter; color: #CC006A; }
+.guide ul { margin: 20px 5px 0 5px; }
+.guide li { box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); }
+
+.bnr { width: 94.3%; margin: 28px  auto; }
+.bnr li { display: inline-block; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); }
+.bnr .school_guide { margin: 20px 0 60px 0; }
+
+.top { width: 20%; float: right; position: relative; top: 20px; }
+
+/* =======================================
+html5doctor.com Reset Stylesheet v1.4.1
+Author: Richard Clark - http://richclarkdesign.com
+======================================= */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+body { line-height: 1; }
+
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+nav ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+a { margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted #000; cursor: help; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/* ===== / Reset =======================*/
+
+/*# sourceMappingURL=style.css.map */
